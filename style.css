@@ -1,0 +1,88 @@
+
+  
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+header{
+    padding:0 15px;
+    background-color: orange; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.svg{
+  margin-left: 50px;
+  color:brown;
+  gap: 20px; display: flex;
+}
+nav {
+    height: 50px;
+  margin-left: 160px;
+   }
+   ul{
+    display: flex;
+    margin-top: -7px;
+   
+    
+   }
+nav ul li{
+    display: flex;
+    list-style: none;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+    font-size:larger;
+    padding-top: 20px;
+   margin-left: 30px;
+  padding-left: 50px;
+}
+ 
+
+.box{
+    height: 40px;
+    width: 100%;
+    font-family: "Grey Qo", cursive;
+    font-weight:500;
+    font-style: normal;
+    font-size: 26px;
+    box-shadow: 0 0px 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(169, 111, 2);
+}
+
+.btn{
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color:orange;
+}
+
+
+input{
+   padding: 8px 60px;
+   border-radius: 5px;
+   border: 2px solid black ;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50dvh;
+    gap: 12px;
+  
+}
+
+.gett{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
